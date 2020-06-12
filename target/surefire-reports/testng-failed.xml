@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [propinTest]">
+  <listeners>
+    <listener class-name="prop.ReportsGenarationUtility.TestListener"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="TestDataParsing(failed)">
+    <classes>
+      <class name="test.propin.TestDateParsing">
+        <methods>
+          <include name="verifyDateParse" invocation-numbers="1 3 5 7 8 9 10 11 17 18 20 21 23 25 27 29 33 35 36 38 39 40 41 43 48 49 51 52 53 57 58 60 63 64 65 68 70 71 72 79 80 81 82 85 87 88 89 91 94 95 98 99 100 104 105 106 115 118 120 121 122 123 126 129 131 132 133 137 138 140 141 142 147 148 154 159 160 162 164"/>
+          <include name="storeResult"/>
+          <include name="startTest"/>
+          <include name="getActualData"/>
+          <include name="openTheUrl"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.propin.TestDateParsing -->
+    </classes>
+  </test> <!-- TestDataParsing(failed) -->
+</suite> <!-- Failed suite [propinTest] -->

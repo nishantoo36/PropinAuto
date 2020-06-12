@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="propinTest" annotations="JDK">
+
+    <listeners>
+        <listener class-name="prop.ReportsGenarationUtility.TestListener"/>
+    </listeners>
+    <test name="TestDataParsing">
+        <classes>
+            <class name="test.propin.TestDateParsing"/>
+        </classes>
+    </test>
+</suite>

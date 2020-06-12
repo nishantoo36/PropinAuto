@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="533.736" tests="166" errors="0" skipped="0" failures="79">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/test-classes:/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/classes:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/nishantpatel/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/nishantpatel/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/nishantpatel/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/nishantpatel/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/Users/nishantpatel/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/nishantpatel/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/nishantpatel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/nishantpatel/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/Users/nishantpatel/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/nishantpatel/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/nishantpatel/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/nishantpatel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/nishantpatel/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/nishantpatel/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/nishantpatel/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/nishantpatel/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/nishantpatel/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/nishantpatel/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nishantpatel/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/nishantpatel/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/nishantpatel/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/nishantpatel/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/nishantpatel/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/nishantpatel/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/nishantpatel/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/nishantpatel/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/nishantpatel/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/nishantpatel/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/nishantpatel/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/nishantpatel/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/nishantpatel/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/nishantpatel/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/surefire/surefirebooter5807697215694143213.jar /Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/surefire 2020-06-12T18-44-00_710-jvmRun1 surefire3450001449878955238tmp surefire_03182310039911506603tmp"/>
+    <property name="surefire.test.class.path" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/test-classes:/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/classes:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/nishantpatel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/nishantpatel/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/nishantpatel/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/nishantpatel/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/nishantpatel/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/Users/nishantpatel/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/nishantpatel/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/nishantpatel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/nishantpatel/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/Users/nishantpatel/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/nishantpatel/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/nishantpatel/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/nishantpatel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/nishantpatel/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/nishantpatel/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/nishantpatel/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/nishantpatel/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/nishantpatel/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/nishantpatel/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nishantpatel/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/nishantpatel/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/nishantpatel/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/nishantpatel/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/nishantpatel/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/nishantpatel/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/nishantpatel/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/nishantpatel/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/nishantpatel/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/nishantpatel/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/nishantpatel/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/nishantpatel/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/nishantpatel/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/nishantpatel/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/nishantpatel/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/nishantpatel/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/nishantpatel/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nishantpatel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto/target/surefire/surefirebooter5807697215694143213.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="nishantpatel"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/nishantpatel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/11/wrcgffs115x5pkjtrpps1pbm0000gn/T/"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/Users/nishantpatel/Desktop/TestAuto/PropinAuto"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/nishantpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="/Users/nishantpatel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.905"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.442">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/ 4/ 31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/ 4/ 31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009/ 4/ 31
+
+Entered value as 2009/ 4/ 31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/ 4/ 31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.719"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.99">
+    <failure message=" &#10; Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29 2 2012 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29 2 2012 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 29 2 2012
+
+Entered value as 29 2 2012
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Wed Feb 29 2012 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29 2 2012
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.777"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.314">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2 12 0002 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2 12 0002 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2 12 0002
+
+Entered value as 2 12 0002
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2 12 0002
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.861"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.26">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 4 31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 4 31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009 4 31
+
+Entered value as 2009 4 31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 4 31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.37">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 2 29 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 2 29 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010 2 29
+
+Entered value as 2010 2 29
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 2 29
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.365">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/ 2/ 29 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/ 2/ 29 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010/ 2/ 29
+
+Entered value as 2010/ 2/ 29
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/ 2/ 29
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.262">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009- -2 -17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009- -2 -17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009- -2 -17
+
+Entered value as -2009- -2 -17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009- -2 -17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.31">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/ -2/ -17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/ -2/ -17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009-/ -2/ -17
+
+Entered value as -2009-/ -2/ -17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/ -2/ -17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.801"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.726"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.816"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.783"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.823"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.301">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/ 12/ 02 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/ 12/ 02 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 0002/ 12/ 02
+
+Entered value as 0002/ 12/ 02
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/ 12/ 02
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.259">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/ 2/ $$ expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/ 2/ $$ expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2019/ 2/ $$
+
+Entered value as 2019/ 2/ $$
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/ 2/ $$
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.863"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.294">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/02/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/02/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 17/02/2009
+
+Entered value as 17/02/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/02/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.37">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04 31 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04 31 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data      04 31 2009
+
+Entered value as      04 31 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04 31 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.926"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="4.764">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02 29 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02 29 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   02 29 2010
+
+Entered value as   02 29 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02 29 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.205"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.258">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-02/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-02/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -17/-02/-2009
+
+Entered value as -17/-02/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-02/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.979"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.265">
+    <failure message=" &#10; Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/02/2012 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/02/2012 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 29/02/2012
+
+Entered value as 29/02/2012
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Wed Feb 29 2012 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/02/2012
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.708"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.268">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 02/12/0002
+
+Entered value as 02/12/0002
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.789"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.698"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.787"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.345">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002 12 02 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002 12 02 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 0002 12 02
+
+Entered value as 0002 12 02
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002 12 02
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.725"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.346">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019 2 $$ expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019 2 $$ expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2019 2 $$
+
+Entered value as 2019 2 $$
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019 2 $$
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.281">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 04/31/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 04/31/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 04/31/2009
+
+Entered value as 04/31/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 04/31/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.731"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.271">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 02/29/2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 02/29/2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 02/29/2010
+
+Entered value as 02/29/2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 02/29/2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.297">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   Apr 31 2009
+
+Entered value as   Apr 31 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.361">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -02/-17/-2009
+
+Entered value as -02/-17/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.228">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb 29 2010
+
+Entered value as Feb 29 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.722"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.262">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17 -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17 -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb -17 -2009
+
+Entered value as Feb -17 -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17 -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.736"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.754"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.76"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.758"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.255">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 02/12/0002
+
+Entered value as 02/12/0002
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 02/12/0002
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.317">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$ 2019 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$ 2019 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb $$ 2019
+
+Entered value as Feb $$ 2019
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$ 2019
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.833"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.242">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/04/31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/04/31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009/04/31
+
+Entered value as 2009/04/31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/04/31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.26">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/02/29 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/02/29 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010/02/29
+
+Entered value as 2010/02/29
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/02/29
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.459">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-02/-17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-02/-17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009-/-02/-17
+
+Entered value as -2009-/-02/-17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-02/-17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.721"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.717"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.827"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.366">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 0002/12/02
+
+Entered value as 0002/12/02
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.263">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/02/$$ expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/02/$$ expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2019/02/$$
+
+Entered value as 2019/02/$$
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/02/$$
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.732"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.245">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04/31/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04/31/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data      04/31/2009
+
+Entered value as      04/31/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      04/31/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.757"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.781"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.24">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   31 Apr 2009
+
+Entered value as   31 Apr 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.475">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 29 Feb 2010
+
+Entered value as 29 Feb 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.514">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -17 Feb -2009
+
+Entered value as -17 Feb -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.73"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.796"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.252">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 30 Feb 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 30 Feb 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 30 Feb 2009
+
+Entered value as 30 Feb 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 30 Feb 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.819"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.255">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Apr 31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Apr 31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009 Apr 31
+
+Entered value as 2009 Apr 31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Apr 31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.262">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02/29/2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02/29/2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   02/29/2010
+
+Entered value as   02/29/2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   02/29/2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.326">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -02/-17/-2009
+
+Entered value as -02/-17/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02/-17/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.045"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.751"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.814"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.728"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.719"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.742"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.264">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   April ,31, 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   April ,31, 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   April ,31, 2009
+
+Entered value as   April ,31, 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   April ,31, 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.393">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is February ,29, 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is February ,29, 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data February ,29, 2010
+
+Entered value as February ,29, 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is February ,29, 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.329">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 Feb 29  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 Feb 29  expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010 Feb 29 
+
+Entered value as 2010 Feb 29 
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010 Feb 29 
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.192">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009 Feb -17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009 Feb -17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009 Feb -17
+
+Entered value as -2009 Feb -17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009 Feb -17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.713"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.677"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.361">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Feb 30 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Feb 30 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009 Feb 30
+
+Entered value as 2009 Feb 30
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is 2009 Feb 30
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.694"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.228">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr, 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr, 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   31 Apr, 2009
+
+Entered value as   31 Apr, 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   31 Apr, 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.215">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb, 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb, 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 29 Feb, 2010
+
+Entered value as 29 Feb, 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 29 Feb, 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.299">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb, -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb, -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -17 Feb, -2009
+
+Entered value as -17 Feb, -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 Feb, -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.688"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.357">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is February , -17, -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is February , -17, -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data February , -17, -2009
+
+Entered value as February , -17, -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is February , -17, -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.715"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.709"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.302">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is February , $$ , 2019 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is February , $$ , 2019 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data February , $$ , 2019
+
+Entered value as February , $$ , 2019
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is February , $$ , 2019
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.276">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is February ,30 ,2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is February ,30 ,2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data February ,30 ,2009
+
+Entered value as February ,30 ,2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 02 2009 00:00:00 GMT+0000 ] for Enter value is February ,30 ,2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.744"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.833"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.998">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      4/31/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      4/31/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data      4/31/2009
+
+Entered value as      4/31/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is      4/31/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.343">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   2/29/2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   2/29/2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   2/29/2010
+
+Entered value as   2/29/2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is   2/29/2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.368">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2/-17/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2/-17/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2/-17/-2009
+
+Entered value as -2/-17/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2/-17/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.984"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.763"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.805"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.236">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009, Apr 31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009, Apr 31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009, Apr 31
+
+Entered value as 2009, Apr 31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009, Apr 31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.508">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010, Feb 29  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010, Feb 29  expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010, Feb 29 
+
+Entered value as 2010, Feb 29 
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010, Feb 29 
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.228">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009, Feb -17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009, Feb -17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009, Feb -17
+
+Entered value as -2009, Feb -17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009, Feb -17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.695"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.768"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.697"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.685"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.796"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.758"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.68"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.679"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.217">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/2/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/2/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 17/2/2009
+
+Entered value as 17/2/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17/2/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.687"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.821"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.221">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-2/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-2/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -17/-2/-2009
+
+Entered value as -17/-2/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17/-2/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.535"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.208">
+    <failure message=" &#10; Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/2/2012 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/2/2012 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 29/2/2012
+
+Entered value as 29/2/2012
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Wed Feb 29 2012 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 29/2/2012
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.242">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31, 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31, 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data   Apr 31, 2009
+
+Entered value as   Apr 31, 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is   Apr 31, 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.49">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29, 2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29, 2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb 29, 2010
+
+Entered value as Feb 29, 2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is Feb 29, 2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.289">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17, -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17, -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb -17, -2009
+
+Entered value as Feb -17, -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is Feb -17, -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.777"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.735"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.251">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$, 2019 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$, 2019 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data Feb $$, 2019
+
+Entered value as Feb $$, 2019
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is Feb $$, 2019
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.774"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.702"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.34">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2/12/0002 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2/12/0002 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2/12/0002
+
+Entered value as 2/12/0002
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 2/12/0002
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.73"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.338">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/4/31 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/4/31 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2009/4/31
+
+Entered value as 2009/4/31
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is 2009/4/31
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.327">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/2/29 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/2/29 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2010/2/29
+
+Entered value as 2010/2/29
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is 2010/2/29
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.295">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-2/-17 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-2/-17 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -2009-/-2/-17
+
+Entered value as -2009-/-2/-17
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -2009-/-2/-17
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.712"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.751"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.731"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.229">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 0002/12/02
+
+Entered value as 0002/12/02
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is 0002/12/02
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.23">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/2/$$ expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/2/$$ expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 2019/2/$$
+
+Entered value as 2019/2/$$
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri Feb 01 2019 00:00:00 GMT+0000 ] for Enter value is 2019/2/$$
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.71"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.374">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is       4/31/2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is       4/31/2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data       4/31/2009
+
+Entered value as       4/31/2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Fri May 01 2009 00:00:00 GMT+0000 ] for Enter value is       4/31/2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.599">
+    <failure message=" &#10; Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is    2/29/2010 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is    2/29/2010 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data    2/29/2010
+
+Entered value as    2/29/2010
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Invalid Date
+
+ 
+ Verification failed getting parsing result as [ Invalid Date ] instead of [ Mon Mar 01 2010 00:00:00 GMT+0000 ] for Enter value is    2/29/2010
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.253">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -2/-17/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -2/-17/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data  -2/-17/-2009
+
+Entered value as  -2/-17/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -2/-17/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.758"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.759"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.743"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.766"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.332">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 / 2 /2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 / 2 /2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 17 / 2 /2009
+
+Entered value as 17 / 2 /2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 / 2 /2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.351">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02 -17 -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02 -17 -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -02 -17 -2009
+
+Entered value as -02 -17 -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -02 -17 -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.815"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.292"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.84"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.726"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.786"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.261">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 2 2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 2 2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data 17 2 2009
+
+Entered value as 17 2 2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is 17 2 2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.756"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.697"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.949"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.73"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.392">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -17/ -2/-2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -17/ -2/-2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data  -17/ -2/-2009
+
+Entered value as  -17/ -2/-2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  -17/ -2/-2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.263">
+    <failure message=" &#10; Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 -2 -2009 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 -2 -2009 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data -17 -2 -2009
+
+Entered value as -17 -2 -2009
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Tue Feb 17 2009 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Tue Feb 17 2009 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is -17 -2 -2009
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.784"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.319">
+    <failure message=" &#10; Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  29/ 2/2012 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  29/ 2/2012 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data  29/ 2/2012
+
+Entered value as  29/ 2/2012
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Wed Feb 29 2012 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Wed Feb 29 2012 00:00:00 GMT+0000 ] instead of [ Invalid date ] for Enter value is  29/ 2/2012
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="2.756"/>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.269">
+    <failure message=" &#10; Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is  02/ 12/0002 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is  02/ 12/0002 expected [true] but found [false]
+	at test.propin.TestDateParsing.verifyDateParse(TestDateParsing.java:35)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyDateParse start
+Enter data  02/ 12/0002
+
+Entered value as  02/ 12/0002
+
+Tap on Submit
+
+Submitted
+
+Verify that parsing result should shown as Mon Dec 02 2002 00:00:00 GMT+0000
+
+ 
+ Verification failed getting parsing result as [ Mon Dec 02 2002 00:00:00 GMT+0000 ] instead of [ Tue Feb 12 2002 00:00:00 GMT+0000 ] for Enter value is  02/ 12/0002
+
+I am in onTestFailure method verifyDateParse failed
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDateParse" classname="test.propin.TestDateParsing" time="3.11"/>
+</testsuite>
